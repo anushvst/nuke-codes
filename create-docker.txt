@@ -1,0 +1,30 @@
+docker build -t (name) .
+OR
+docker build .
+
+docker run -it -d -p 8501:8501 (name)
+OR
+name = 1st 4 sha:
+
+docker commit (id from docker container)
+
+Make repo on docker hub
+
+docker login -u (username)
+
+docker tag fc (image name)
+
+docker push (reponame = tag = image name)
+
+docker run -d -p 8051:8051 (repo name) 
+
+from cmd:
+docker exec -it 0dd bash
+if new env(python -m venv virt)
+source virt/bin/activate
+
+
+CLIENT:
+Docker run -d -p 8501:8501 -it anushvst/ai-ivr
+
+Docker version 4.9.1
